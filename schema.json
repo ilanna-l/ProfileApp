@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "YP3cMW9Q7PNxLnHnqf8eTRnqLEy2": {
+        "type": "object",
+        "properties": {
+          "birthday": { "type": "string" },
+          "hobby": { "type": "string" },
+          "name": { "type": "string" },
+          "phone": { "type": "string", "pattern": "^[0-9]{3}$" },
+          "highScore": { "type": "number" }
+        },
+        "required": ["birthday", "hobby", "name", "phone", "highScore"]
+      },
+      "iflD1DOzR5MXdekfNF4P7KMmVdw2": {
+        "type": "object",
+        "properties": {
+          "birthday": { "type": "string" },
+          "hobby": { "type": "string" },
+          "name": { "type": "string" },
+          "phone": { "type": "string", "pattern": "^[0-9]{3}$" }
+        },
+        "required": ["birthday", "hobby", "name", "phone"]
+      }
+    }
+  }
+  
